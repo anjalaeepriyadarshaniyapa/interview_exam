@@ -1,0 +1,82 @@
+@charset "utf-8";
+.hedar-img {
+	background-image: url(../img/cover.png);
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-size: contain;
+}
+.bg-image-second {
+	background-image: url(../img/why-us.png);
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-size: contain;
+}
+.bg-img-3{
+		background-image: url(../img/why-us.png);
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-size: contain;
+}
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.progress-label {
+    float: right;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 15px;
+	margin-left: -2rem
+	
+}.call-to-action {
+	background-image: url(../img/why-us.png), -webkit-linear-gradient(270deg,rgba(5,34,73,1.00) 0%,rgba(2,9,53,1.00) 100%);
+	background-image: url(../img/why-us.png), -moz-linear-gradient(270deg,rgba(5,34,73,1.00) 0%,rgba(2,9,53,1.00) 100%);
+	background-image: url(../img/why-us.png), -o-linear-gradient(270deg,rgba(5,34,73,1.00) 0%,rgba(2,9,53,1.00) 100%);
+	background-image: url(../img/why-us.png), linear-gradient(180deg,rgba(5,34,73,1.00) 0%,rgba(2,9,53,1.00) 100%);
+}
